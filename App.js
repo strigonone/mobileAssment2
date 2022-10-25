@@ -22,6 +22,11 @@ const App = () => {
         {hideSplashScreen ? (
           <Stack.Navigator screenOptions={{headerShown: false}}>
             <Stack.Screen
+              name="Home"
+              component={Home}
+              options={{headerShown: false}}
+            />
+            <Stack.Screen
               name="Directions"
               component={Directions}
               options={{headerShown: false}}
@@ -49,11 +54,6 @@ const App = () => {
             <Stack.Screen
               name="PasswordSent"
               component={PasswordSent}
-              options={{headerShown: false}}
-            />
-            <Stack.Screen
-              name="Home"
-              component={Home}
               options={{headerShown: false}}
             />
           </Stack.Navigator>

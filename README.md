@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 
 <div>
-  <h1 align="center">Mobile Assignment 2 VTL</h1>
+  <h1 align="center">Mobile Systems Development COM826</h1>
 
   <p align="center">
     <strong>Created by Johnny Chao</strong>
@@ -10,7 +10,7 @@
     <br />
         <strong>Auckland University of Technology</strong>
     <br />
-            <h2 align="center">Mobile Systems Development COM826</h2>
+            <h2 align="center">Mobile Assignment 2 VTL</h2>
 </div>
 
 <!-- ABOUT THE PROJECT -->
@@ -18,17 +18,18 @@
 <br />
 
 <p align='center'>
-<img src="assets/trafficlightvectoricon-1.png" alt="Logo" width="150" height="150">
+<img src="assets/trafficlightvectoricon-1@3x.png" alt="Logo" width="150" height="150">
 <br />
 
 ## About The Project
 
-Youtube Link
+[Youtube Video explanation](https://www.youtube.com/watch?v=yLdnU-sD8lA&ab_channel=Type0)
 
 ### Built With
 
 - Figma
 - React Native
+- Javascript
 - Locofy
 - Visual Studio
 - Android Studio
@@ -38,7 +39,7 @@ Youtube Link
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.\
-_Note: This is an assumption you are running on a Windows PC_\
+_Note: This is an assumption you are running on a Windows PC_
 
 ### Prerequisites
 
@@ -83,12 +84,12 @@ Install the latest dependencies
 npm install npm@latest -g
 ```
 
-If the above does not work, proceed with installing it manually as shown below
+If the above does not work, proceed with installing it manually as shown below (In order)
 
 ```sh
-npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
-npm install @react-navigation/native-stack
 npm install react-navigation
+npm install @react-navigation/native-stack
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
 ```
 
 #
